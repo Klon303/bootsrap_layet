@@ -1,0 +1,77 @@
+.teacher {
+  padding-top: 72px;
+  padding-bottom: 76px;
+  background-color:#212133;
+}
+
+.teacher__text-main{
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 27px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  color:white;
+}
+
+.teacher__img-radius {
+  border-radius:20px 20px 0 0;
+  width: 100%;
+
+}
+
+.teacher__img {
+  margin-bottom: 30px;
+}
+
+
+.teacher__wrapper-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color:white;
+  margin-bottom: 9px;
+}
+
+.teacher__wrapper-info{
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color:#85859B;
+  max-width: 254px;
+}
+
+@media (max-width:992px) {
+  .teacher__container{
+    gap:30px;
+  }
+  .teacher{
+    padding-bottom: 48px;
+  }
+
+  .teacher__wrapper-name{
+    margin-bottom: 5px;
+  }
+  .teacher__wrapper-info{
+    padding-bottom: 27px;
+    max-width: 345px;
+    font-size: 15.9px;
+  }
+}
+
+@media (max-width: 575px) {
+  .teacher{
+    padding-top: 36px;
+    padding-bottom: 20px;
+  }
+  .teacher__text-main{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .teacher__wrapper-info{
+    padding-bottom: 26px;
+}
+}
+

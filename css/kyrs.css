@@ -1,0 +1,147 @@
+.kyrs{
+  padding-top: 72px;
+  padding-bottom:65px;
+}
+
+.kyrs__list__card{
+  position: relative;
+  border-radius:20px;
+}
+
+.kyrs__list {
+  row-gap: 30px;
+
+}
+.kyrs__main{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 23px;
+}
+
+.kyrs__time {
+  position: absolute;
+  padding-top: 13px;
+  left:85%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color:white;
+}
+
+.kyrs__time::before {
+  content: "";
+  background-image:url(../img/time.png);
+  position: absolute;
+  top:+10px;
+  left:-30px;
+  height: 24px;
+  width: 24px;
+}
+
+.kyrs__text-main {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.kyrs__text {
+  flex-grow: 1;
+  margin: 0;
+  margin-bottom: 31px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.kyrs__btn {
+  cursor: pointer;
+  padding: 20px 57px;
+  border-radius:20px;
+  background-color:blue;
+  color:white;
+  border:none;
+
+}
+
+.kyrs__card {
+  background-color: #EDF0F9;
+  border-radius:0 0 20px 20px;
+  padding: 30px;
+  min-height: 300px;
+}
+.list__card {
+ position: relative;
+}
+
+.kyrs__img{
+  height: 180px;
+  border-radius:20px 20px 0 0;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .kyrs{
+padding-bottom: 81px;
+  }
+  .kyrs__time {
+    left:75%;
+  }
+  .kyrs__card {
+    min-height: 376px;
+  }
+}
+
+@media (max-width: 776px) {
+  .card-text {
+    margin-bottom: 25px;}
+}
+
+@media (max-width: 767px) {
+  .kyrs__main{
+    margin-bottom: 28px;
+  }
+  .kyrs__time {
+    left:69%;
+  }
+  .kyrs__text-main {
+    font-size: 17.2px;
+    line-height: 23px;
+    font-weight: 700;
+  }
+  .card-text {
+    margin-bottom: 35px;}
+
+.kyrs__card {
+  min-height: 473px;
+}
+
+.kyrs__btn {
+  padding: 20px 49px;
+}}
+
+@media (max-width:575px) {
+  .kyrs{
+    padding-top: 47px;
+    padding-bottom:50px;
+  }
+  .kyrs__main {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 29px;
+  }
+  .card-text {
+    margin-bottom: 85px;
+    font-size: 17px;
+}
+.kyrs__text-main {
+  font-size: 18px;
+}
+.kyrs__btn {
+  padding: 22px 56px;
+}
+.kyrs__time {
+  left:72%;
+}
+}
